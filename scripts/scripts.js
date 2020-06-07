@@ -2,6 +2,7 @@ console.log("Loaded");
 
 let minValue = document.getElementById("id-min-val");
 let maxValue = document.getElementById("id-max-val");
+let fizz = document.getElementById("id-fizz");
 const innerCont = document.getElementById("id-inner-container");
 
 function clearValue() {
@@ -27,17 +28,18 @@ function onMaxChange() {
   console.log("Max value is " + maxValue.value);
 }
 
+// function onlyFizz() {
+//   var elementFizz = document.getElementsByClassName("fizz");
+//   element.classList.toggle(".num .buzz .fizzbuzz");
+//   console.log(onlyFizz);
+// }
+
 function main() {
   const clearBtn = document.getElementById("id-clear");
   clearBtn.onclick = clearValue;
   const refreshBtn = document.getElementById("id-refresh");
   refreshBtn.onclick = refreshValue;
-  minValue;
-
-  //Creating function that will generate 100 divs.
-  //this line creates 100 divs and hides all that do not match input values.
   for (let i = minValue.value; i <= maxValue.value; i++) {
-    // for( i = minValue.value; i <= maxValue.value; i++ ) { // <--- 'UNcomment' this line to create divs according to input values.
     let crtDiv = document.createElement("div");
     let crtP = document.createElement("p");
 
