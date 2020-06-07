@@ -1,7 +1,7 @@
 html {
   margin: auto;
   padding: 1px;
-  background-image: url(/styles/back.jpg);
+  background-image: url(styles/back.jpg);
   background-position: center;
   color: #e8fce9;
 }
