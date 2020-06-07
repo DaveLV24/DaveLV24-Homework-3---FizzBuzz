@@ -34,6 +34,14 @@ function onMaxChange() {
 //   console.log(onlyFizz);
 // }
 
+// var pElements = document.getElementsByClassName("class-fizz");
+// var pElement = pElements[0];
+// pElement.onclick = function () {
+//   if (this.getAttribute("class") == ("class-fizz")
+//     this.setAttribute("class", ".fizzbuzz .buzz .num");
+//   else this.setAttribute("class", "fizz");
+// };
+
 function main() {
   const clearBtn = document.getElementById("id-clear");
   clearBtn.onclick = clearValue;
